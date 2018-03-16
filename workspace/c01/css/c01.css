@@ -9,8 +9,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    margin: 0;
-    padding: 0;}
+    margin: 0px;
+    padding: 0px;}
 
 h1, h3, p {
     float: left;
@@ -22,7 +22,7 @@ h1, h3, p {
 
 
 h1 {
-    margin: 50px 0 0 50px;
+    margin: 50px 0px 0px 50px;
     height: 175px;
     background-image: url("../images/constructive-logo.gif");
     background-repeat: no-repeat;
@@ -32,8 +32,8 @@ h1 {
     border-right: 1px solid #bcbdc0;}
 
 h3 {
-    margin: 0 0 0 50px;
-    padding: 25px 0 0 0;
+    margin: 0px 0px 0px 50px;
+    padding: 25px 0px 0px 0px;
     font-family: 'Open Sans', arial, sans-serif;
     font-size: 1.8em;
     font-style: italic;
@@ -45,8 +45,8 @@ h3 {
     border-right: 1px solid #bcbdc0;}
 
 p {
-    margin: 0 0 0 50px;
-    padding: 30px 0 25px 0;
+    margin: 0px 0px 0px 50px;
+    padding: 30px 0px 25px 0px;
     font-weight: bold;
     text-align: center;
     border-right: 1px solid #bcbdc0;
