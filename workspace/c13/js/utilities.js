@@ -21,4 +21,3 @@ function removeEvent(el, event, callback) {
     el['e' + event + callback] = null;
   }
 }
-
