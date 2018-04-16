@@ -4,7 +4,7 @@ function initialize() {
   // mapOptions 객체는 표시할 지도를 초기화할 수 있는 정보를 가지고 있다
   var mapOptions = {
     zoom: 14,
-    center: new google.maps.LatLng(37.516683,127.125818),
+    center: new google.maps.LatLng(37.516683, 127.125818),
     mapTypeId: google.maps.MapTypeId.ROADMAP,
 
     panControl: false,

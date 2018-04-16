@@ -1,6 +1,6 @@
 function init() {
   var mapOptions = {                                 // 지도 옵션을 설정한다
-    center: new google.maps.LatLng(37.516683,127.125818),
+    center: new google.maps.LatLng(37.516683, 127.125818),
     mapTypeId: google.maps.MapTypeId.ROADMAP,
     scaleControl: true,
     zoom: 13
