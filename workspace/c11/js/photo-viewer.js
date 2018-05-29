@@ -10,6 +10,7 @@ function crossfade($img) {           // 두 이미지에 페이드 효과를 적
     $current.stop().fadeOut('slow'); // 애니메이션을 중지하고 페이드 아웃 한다
   }
 
+  // 이미지 센터로 
   $img.css({                         // 이미지에 CSS로 여백을 지정한다
     marginLeft: -$img.width() / 2,   // 이미지의 너비의 절반에 해당하는 여백
     marginTop: -$img.height() / 2    // 이미지의 높이의 절반에 해당하는 여백

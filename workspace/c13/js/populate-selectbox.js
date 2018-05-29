@@ -24,11 +24,11 @@
 
     // 루프를 이용해 옵션을 생성한다
     var options = '<option>모델을 선택해 주세요</option>';
-	var key;
-    for (key in models) {                     // 루프를 실행한다
-      options += '<option value="' + key + '">' + models[key] + '</option>';
-    } // 옵션 텍스트에 따옴표가 있으면 이스케이프 처리 해야 한다
-    model.innerHTML = options;                    // 선택 상자를 수정한다
+    var key;
+      for (key in models) {                     // 루프를 실행한다
+        options += '<option value="' + key + '">' + models[key] + '</option>';
+      } // 옵션 텍스트에 따옴표가 있으면 이스케이프 처리 해야 한다
+      model.innerHTML = options;                    // 선택 상자를 수정한다
   });
 
   function getModels(equipmentType) {

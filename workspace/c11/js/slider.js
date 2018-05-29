@@ -11,7 +11,7 @@ $('.slider').each(function() {              // 모든 슬라이더를 찾는다
 
     advance();                       // 슬라이드가 이동할 때 advanced() 함수를 다시 호출한다
 
-	// 현재 슬라이드가 보여지고 있으며 애니메이션이 진행 중이면 아무것도 하지 않는다
+	  // 현재 슬라이드가 보여지고 있으며 애니메이션이 진행 중이면 아무것도 하지 않는다
     if ($group.is(':animated') || currentIndex === newIndex) {  
       return;
     }
@@ -26,7 +26,7 @@ $('.slider').each(function() {              // 모든 슬라이더를 찾는다
       slideLeft = '-100%';           // 새 슬라이드를 왼쪽에 배치한다Sit the new slide to the left
       animateLeft = '100%';          // 현재 슬라이드 그룹을 오른쪽으로 이동한다
     }
-	// 새 슬라이드를 왼쪽(인덱스가 작은 경우) 또는 오른쪽 (인덱스가 큰 경우)에 배치한다
+	  // 새 슬라이드를 왼쪽(인덱스가 작은 경우) 또는 오른쪽 (인덱스가 큰 경우)에 배치한다
     $slides.eq(newIndex).css( {left: slideLeft, display: 'block'} );
 
     $group.animate( {left: animateLeft}, function() {    // 슬라이드에 애니메이션을 적용하고

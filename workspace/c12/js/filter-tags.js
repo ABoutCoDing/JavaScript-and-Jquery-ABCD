@@ -6,7 +6,7 @@
 
   $imgs.each(function() {                         // 이미지에 대해 루프를 실행한다
     var img = this;                               // 이미지를 변수에 저장한다
-    var tags = $(this).data('tags');              // 태그들을 저장한다
+    var tags = $(this).data('tags');              // 태그들을 저장한다 data-tags
 
     if (tags) {                                   // 요소에 태그가 설정되어 있으면
       tags.split(',').forEach(function(tagName) { // 콤마를 이용해 값을 분리한다
